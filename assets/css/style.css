@@ -207,7 +207,7 @@ img {
   margin-bottom: 0px;
 }
 #mu-menu .navbar-default .navbar-nav li > a {
-  border-bottom: 2px solid transparent;
+ 
   padding-bottom: 25px;
   padding-top: 25px;
   margin-bottom: -1px;
@@ -348,7 +348,7 @@ img {
   height: 500px;
 }
 #mu-slider .mu-slider-single .mu-slider-img:after {
-  background-color: rgba(0, 0, 0, 0.5);
+  
   content: '';
   position: absolute;
   left: 0;
@@ -399,11 +399,13 @@ img {
 }
 #mu-slider .slick-prev,
 #mu-slider .slick-next {
+  display: none !important;
   height: 60px;
   width: 60px;
 }
 #mu-slider .slick-prev:before,
 #mu-slider .slick-next:before {
+  display: none !important;
   color: #fff;
   font-size: 25px;
 }
@@ -558,7 +560,7 @@ img {
  ABOUT US COUNTER SECTION
 ====================*/
 #mu-abtus-counter {
-  background-image: url("../../assets/img/flower.jpg");
+  background-image: url("../../assets/img/banner2.png");
   background-repeat: no-repeat;
   background-size: 100%;
   display: inline;
@@ -1108,7 +1110,7 @@ img {
  COURSES PAGE
 ====================*/
 #mu-page-breadcrumb {
-  background-color: #333;
+  background-color: #053206;
   display: inline;
   float: left;
   padding: 30px 0;
@@ -1340,6 +1342,7 @@ img {
 }
 .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-prev,
 .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next {
+  display: none;
   height: 50px;
   width: 50px;
 }
@@ -2299,6 +2302,7 @@ img {
 
   #mu-slider .mu-slider-single .mu-slider-img {
     height: 350px;
+    object-fit: contain;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content h4 {
@@ -2317,9 +2321,9 @@ img {
     font-size: 16px;
   }
 
-  #mu-slider .mu-slider-single .mu-slider-img figure img {
+  /* #mu-slider .mu-slider-single .mu-slider-img figure img {
     width: auto;
-  }
+  } */
 
   #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
     padding: 5px 10px;
@@ -2365,6 +2369,7 @@ img {
   }
 
   #mu-slider .slick-prev, #mu-slider .slick-next {
+    display: none !important;
     height: 40px;
     width: 40px;
   }
