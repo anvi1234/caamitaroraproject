@@ -444,7 +444,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  
 }
 #mu-about-us .mu-about-us-area {
   display: inline;
@@ -2365,7 +2365,7 @@ img {
   }
 
   #mu-slider .mu-slider-single .mu-slider-img {
-    
+    height: 350px;
   }
 
   #mu-service .mu-service-area .mu-service-single {
